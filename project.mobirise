@@ -64,6 +64,366 @@
     "gdpr": false
   },
   "pages": {
+    "politicadeprivacidade.html": {
+      "settings": {
+        "meta_descr": "Site Creator Description",
+        "title": "Política de Privacidade",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Política de Privacidade</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Política de Privacidade\n<div>\n</div><div>A presente Política regula as condições gerais de coleta, uso, armazenamento, tratamento e proteção de dados nos sites, plataformas e aplicações de Internet, em conformidade com a Lei 12.965/2014 (Marco Civil da Internet) e o Decreto n 8.771/2016 (Regulamentação do Marco Civil da Internet).\n</div><div>\n</div><div>AO UTILIZAR OS SITES, PLATAFORMAS OU APLICAÇÕES DE INTERNET VOCÊ CONCORDA EXPRESSA E INTEGRALMENTE COM ESTA POLÍTICA DE PRIVACIDADE, COMO CONDIÇÃO INDISPENSÁVEL À UTILIZAÇÃO DE SUAS FUNCIONALIDADES E SERVIÇOS.\n</div><div>\n</div><div>1 – COLETA DE DADOS\n</div><div>\n</div><div>A Corel Design está plenamente comprometido com a privacidade das informações que eventualmente são coletadas nos seus sites, plataformas e aplicações de Internet.\n</div><div>\n</div><div>A coleta de dados nos sites, plataformas e aplicações de Internet é realizada para atender às seguintes finalidades:\n</div><div>\n</div><div>a) Viabilizar a prestação do serviço;\n</div><div>b) Adequar a aparência e o conteúdo às preferências do usuário, a fim de proporcionar-lhe acesso mais rápido, agradável e eficaz;\n</div><div>c) Autenticar acessos e validar contas de usuário;\n</div><div>d) Buscar segurança adequada aos serviços oferecidos e meios de identificação no caso de usos impróprios ou ilícitos;\n</div><div>e) Resolver problemas e formular notificações relacionadas ao uso dos sites, plataformas e aplicações de Internet;\n</div><div>f) Manter os usuários informados sobre os serviços, alterações nos Termos de Uso ou na Política de Privacidade, atualizações ou melhorias nos sites, plataformas e aplicações de Internet, ou ainda sobre o status de suas contas e operações;\n</div><div>g) Divulgar ações promocionais, inclusive de empresas parceiras;\n</div><div>h) Apurar informações estatísticas.\n</div><div>2 – DADOS COLETADOS\n</div><div>\n</div><div>Para atender às finalidades acima, os sites, plataformas e aplicações de Internet podem coletar alguns dados a partir de informações:\n</div><div>\n</div><div>a) Que o próprio usuário fornece espontaneamente, inclusive mediante a criação de contas ou a inserção de referências a seu respeito ou de terceiros em qualquer contexto dos sites, plataformas e aplicações de Internet;\n</div><div>b) Sobre a forma como o usuário navega nos sites, plataformas e aplicações de Internet, bem como sobre os registros de acesso e de interações em geral nos sites, plataformas e aplicações de Internet.\n</div><div>c) Fornecidas por ferramentas ou plataformas externas disponibilizadas por parceiros e relacionadas ao navegador ou conta do usuário (cookies ou identificadores anônimos).\n</div><div>3 – ARMAZENAMENTO DE REGISTROS E DADOS\n</div><div>\n</div><div>Os sites, plataformas e aplicações de Internet mantêm registros de acessos à suas aplicações, em ambiente controlado e de segurança, pelo prazo de 06 (seis) meses, nos termos do art. 15 da lei 12.965/14. Após esse período, os registros de acesso à aplicação são automaticamente excluídos, nos termos do art. 13, $2, II, do Decreto 8.771/2016.\n</div><div>\n</div><div>Além disso, os sites, plataformas e aplicações de Internet armazenam, de forma excepcional, alguns dados de usuários visando a atender finalidades específicas, conforme exposto nos itens I e II, acima. A guarda destes dados ocorre em ambiente controlado e de segurança, nos termos do art. 10 da lei 12.965/14, sendo automaticamente excluídos, na forma do art. 13, $2, I, do Decreto 8.771/2016, tão logo seja atingida a finalidade de seu uso pela Corel Design</div><div>\n</div><div>4 – PADRÕES DE SEGURANÇA E SIGILO DOS REGISTROS E DADOS\n</div><div>\n</div><div>Os registros e dados coletados através dos sites, plataformas e aplicações de Internet são armazenados, tratados e protegidos mediante as melhores práticas de hospedagem, processamento, backup e criptografia, de acordo com a sua respectiva criticidade.\n</div><div>\n</div><div>Os dados coletados são mantidos em sigilo, inclusive com o estabelecimento de controle estrito sobre o acesso mediante mecanismos de autenticação e responsabilidades hierárquicas.\n</div><div>\n</div><div>A Corel Design mantém um inventário detalhado dos acessos aos registros e dados pessoais, em formato interoperável e estruturado, contendo o momento, a duração, a identidade do funcionário ou do responsável pelo acesso e o arquivo acessado, inclusive para cumprimento de eventual ordem judicial.\n</div><div>\n</div><div>Contudo, o usuário deve ter ciência que nenhum sistema de segurança na Internet é garantido contra invasões indesejadas, sendo que o compromisso da Corel Design se limita à adoção de medidas de proteção recomendáveis de acordo com o atual estado da técnica, e em conformidade com a Lei 12.965/2014 (Marco Civil da Internet) e o Decreto n 8.771/2016 (Regulamentação do Marco Civil da Internet).\n</div><div>\n</div><div>Devido às características estruturais da Internet, é possível que os dados coletados sejam armazenados ou tratados no exterior.\n</div><div>\n</div><div>5 – COMPARTILHAMENTO DE DADOS\n</div><div>\n</div><div>Os sites, plataformas e aplicações de Internet somente compartilham dados com terceiros:\n</div><div>\n</div><div>a) mediante autorização prévia do usuário ou mediante ordem judicial;\n</div><div>b) mediante solicitação do ministério público, de autoridade policial ou administrativa, nos termos do art. 15, parágrafo 3, da lei 12.965/14, art. 11 e 15, do Decreto 8.771/2016; ou\n</div><div>c) se o compartilhamento for necessário para cumprir qualquer outra lei ou regulamentação governamental.\n</div><div>6 – GERENCIAMENTO, CORREÇÃO E EXCLUSÃO DADOS\n</div><div>\n</div><div>A Corel Design não se responsabiliza pelo conteúdo ou pela correção, veracidade, autenticidade, completude e atualização dos dados prestados por usuários de seus sites, plataformas ou aplicações de Internet, ou ainda pelas informações acessadas por seu intermédio em softwares, sites ou plataformas de terceiros, nem mesmo pelo eventual uso indevido de informações publicadas por usuários ou por fraudes decorrentes da violação de senhas.\n</div><div>\n</div><div>É da exclusiva responsabilidade do usuário prestar unicamente informações corretas, verdadeiras, autênticas, completas e atualizadas; criar uma senha forte, que mantenha a integridade da sua conta, zelando, ainda, pelo sigilo da mesma, quando aplicável, não a divulgando a terceiros. O USO DO LOGIN E DA SENHA DE SOFTWARES, SITE OU PLATAFORMAS DE TERCEIROS É DE EXCLUSIVA RESPONSABILIDADE DO USUÁRIO.\n</div><div>\n</div><div>O kitdodesigner.com.br mantém um canal de atendimento aos usuários e para denúncia de dados falsos/equivocados publicados nos seus sites, plataformas e aplicações de Internet através do endereço eletrônico coreldesignoficial@gmail.com, o a Corel Design poderá excluir dos seus sites, plataformas e aplicações de Internet dados pessoais referentes ao solicitante, encerrando eventuais contas/perfis, ressalvadas as hipóteses de guarda obrigatória de registros ou dados previstas em lei ou objeto de ordem judicial ou de requerimento do Ministério Público ou de autoridade policial ou administrativa, nos termos do art. 7, X, da Lei 12.965/14.\n</div><div>\n</div><div>7 – DIREITO DE EDIÇÃO E EXCLUSÃO DE CONTEÚDOS\n</div><div>\n</div><div>Os sites, plataformas e aplicações de Internet se reservam o direito de editar ou mesmo excluir quaisquer conteúdos publicados por usuários que não estejam em conformidade com a lei, com a sua Política de Privacidade ou Termos de Uso.\n</div><div>\n</div><div>Essa condição, todavia, não configura obrigação do kitdodesigner.com.br, sendo que, por força do art. 15, parágrafo 3 da Lei 12.965/14 e art. 11 e 15, do Decreto 8.771/2016, via de regra solicitações de edição ou remoção devem se dar sob a forma de ordem judicial, requerimento do Ministério Público ou de autoridade policial ou administrativa.\n</div><div>\n</div><div>8 – SPAM\n</div><div>\n</div><div>Os sites, plataformas e aplicações de Internet envidarão os melhores esforços para evitar o envio de e-mails não-solicitados.\n</div><div>\n</div><div>Colabore enviando reclamação para coreldesignoficial@gmail.com caso você receba qualquer e-mail não-solicitado ou potencialmente invasivo em nome da Corel Design</div><div>\n</div><div>9 – LINKS\n</div><div>\n</div><div>Os sites, plataformas e aplicações de Internet podem conter conexões e links para outros sites na Internet.\n</div><div>\n</div><div>A Corel Design não se responsabiliza pelos conteúdos, pelos Termos de Uso ou pela Política de Privacidade dos sites cujos links são publicados nos sites, plataformas e aplicações de Internet.\n</div><div>\n</div><div>10 – ALTERAÇÕES DA POLÍTICA\n</div><div>\n</div><div>A presente Política de Privacidade pode ser alterada a qualquer tempo.\n</div><div>\n</div><div>As alterações desta Política de Privacidade não serão informadas, ficando de total responsabilidade do usuário olhar periodicamente nossas Política de Privacidade.</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSSlLqcoE5",
+          "_anchor": "content4-30",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".media-container-row": {
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.5rem",
+                  "color": "#ffffff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
+                }
+              }
+            }
+          },
+          "_name": "footer7",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#370661\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdeuso.html\" class=\"text-white\" target=\"_blank\">Termos de Uso &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li>\n                    \n                    \n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"politicadeprivacidade.html\" target=\"_blank\" class=\"text-white\">Política de Privacidade &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdegarantia.html\" class=\"text-white\">Termos de Garantia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\"><a href=\"https://coreldesign.mobirisesite.com/html.html\" class=\"text-white\">© Copyright 2020 - Corel Design - Todos os direitos reservados</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSSEWNH5lY",
+          "_anchor": "footer7-34",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "termosdeuso.html": {
+      "settings": {
+        "meta_descr": "Site Creator Description",
+        "title": "Termos de Uso",
+        "order": 3
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Termos de Uso</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Os presentes Termos de Uso regulam as condições gerais de utilização dos sites, plataformas e aplicações de Internet, em conformidade com a Lei 12.965/2014 (Marco Civil da Internet) e o Decreto n 8.771/2016 (Regulamentação do Marco Civil da Internet).\n<div></div><div>\nAo utilizar os sites, plataformas ou aplicações de Internet você concorda expressa e integralmente com os presentes Termos de Uso.\n</div><div></div><div>\nRecomendamos aos membros que, previamente à utilização dos sites, plataformas ou aplicações de Internet, realizem atenta leitura dos presentes TERMOS DE USO.\n</div><div></div><div>\n</div><br><div>1 – OBJETO\n</div><div></div><div>a Corel Desing trata-se de um site que vende vetores<span style=\"font-size: 1.5rem;\">. </span></div><div><span style=\"font-size: 1.5rem;\">Os presentes Termos de Uso regulam a sua utilização.&nbsp;</span></div><br><div><span style=\"font-size: 1.5rem;\">2 – INEXISTÊNCIA DE GARANTIA DE CONTINUIDADE DOS SERVIÇOS E SUSCETIBILIDADE A FALHAS TÉCNICAS\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><br></div><div><span style=\"font-size: 1.5rem;\">\n</span><span style=\"font-size: 1.5rem;\">Quando for razoavelmente possível, a Corel Design informará previamente as interrupções do funcionamento dos seus serviços, plataformas e funcionalidades.&nbsp;</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design não se responsabiliza por quaisquer danos indiretos decorrentes do uso de seus sites, plataformas e aplicações de Internet ou por danos diretos ou indiretos decorrentes de caso fortuito ou força maior, do uso inadequado da plataforma, ou, ainda, por eventuais paralisações transitórias.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os conteúdos disponibilizados através dos sites, plataformas e aplicações de Internet poderão eventualmente conter erros ou falhas técnicas. Colabore nos informando esses problemas mediante e-mail para coredesignoficial@gmail.com</span></div><br><br><div><span style=\"font-size: 1.5rem;\">3 – PRIVACIDADE E PROTEÇÃO DE DADOS\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design pela privacidade dos dados de seus membros, nos e veda a utilização dos seus sites, plataformas e aplicações de Internet para qualquer finalidade ilícita, de acordo com o definido pela legislação em vigor e pelos presentes Termos de Uso.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Contudo, o membro deve ter ciência de que frequentemente fraudadores tentam se valer de ferramentas funcionais para fins escusos, visando a obter informações pessoais.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design ADOTA as melhores práticas de hospedagem, processamento, backup e criptografia DE DADOS PESSOAIS E NUNCA IRÁ SOLICITAR SUA SENHA, NOME DO USUÁRIO, DADOS DE CARTÃO DE CRÉDITO OU OUTRAS INFORMAÇÕES PESSOAIS ATRAVÉS DE E-MAIL OU CONTATO TELEFÔNICO.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Caso você receba qualquer e-mail não-solicitado ou potencialmente invasivo em nome da Corel Design, colabore enviando denúncia para coreldesignoficial@gmail.com</span></div><br><br><div><span style=\"font-size: 1.5rem;\">4 – PROPRIEDADE INTELECTUAL\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os conteúdos acessados mediante os sites, plataformas e aplicações de Internet, incluindo, sem limitação, textos em geral, apresentações, tabelas, bases de dados, fotografias, ilustrações, gráficos, vídeos, softwares ou quaisquer outros tipos de obras intelectuais, bem como as informações e os dados em geral obtidos através dos seus serviços, plataformas e funcionalidades, são protegidos por direitos de propriedade intelectual, como direitos autorais, marcas, desenhos industriais, patentes, dentre outros, sendo que o seu acesso através dos sites, plataformas e aplicações de Internet não implica em qualquer cessão de direitos ou licença adicional ao mero uso no contexto dos respectivos sites, plataformas e aplicações de Internet.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Sempre que os sites, plataformas e aplicações de Internet oferecerem meios diretos de compartilhamento dos seus conteúdos, mediante ferramentas ou ícones de redes sociais ou de outros sites, plataformas ou aplicações de Internet (como Facebook, LinkedIn, etc.), fica desde logo autorizado o compartilhamento desses específicos conteúdos, de acordo com os termos de uso de cada ferramenta, condicionado à devida indicação de procedência do conteúdo (crédito) e a que o seu compartilhamento não tenha finalidade comercial e não concorra com os sites, plataformas e aplicações de Internet.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Em quaisquer outros casos, salvo mediante permissão expressa, é vedado:\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">(i) realizar reproduções adicionais ao mero acesso às obras intelectuais, aos conteúdos e às informações disponibilizados nos sites, plataformas e aplicações de Internet.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">(ii) transmitir, distribuir, divulgar ou de qualquer forma de comunicar as obras intelectuais, os conteúdos e as informações disponibilizados nos sites, plataformas e aplicações de Internet da Corel Desing a terceiros;\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">(iii) utilizar artifícios técnicos para quebra de senhas ou da codificação dos sites, plataformas e aplicações de Internet, para acesso e interpretação do seu código-fonte, bem como para tradução para diversa linguagem computacional;\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">(iv) a transmissão eletrônica dos sites, plataformas e aplicações de Internet ou de seus conteúdos de um computador para outro através de rede, não se incluindo nessa restrição a mera utilização dos sites, plataformas e aplicações de Internet em rede;\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">(v) o uso de plataformas e aplicações de Internet por terceiros ou por qualquer outra pessoa diversa daquele que foi originalmente autorizado/licenciado.</span></div><br><br><div><span style=\"font-size: 1.5rem;\">5 – LIMITAÇÃO DE RESPONSABILIDADE\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os materiais são fornecidos neste website sem nenhuma garantia explícita ou implícita de comercialização ou adequação a qualquer objetivo específico. Em nenhum caso a Corel Design ou os seus colaboradores serão responsabilizados por quaisquer danos, incluindo lucros cessantes, interrupção de negócio, ou perda de informação que resultem do uso ou da incapacidade de usar os materiais. a Corel Design não garante a precisão ou integridade das informações, textos, gráficos, links e outros itens dos materiais.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design não é responsável pela violação de direitos autorais decorrente de informações, documentos e materiais publicados nesta website, comprometendo-se a retirá-los do ar assim que notificado da infração.</span></div><br><br><div><span style=\"font-size: 1.5rem;\">6 – CONDIÇÕES GERAIS DE ACESSO E USO DOS SITES, PLATAFORMAS OU APLICAÇÕES DE INTERNET\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design é um site de venda de pacotes de vetores e arquivos online, os resultados dos cursos dependem única e exclusivamente do seu esforço e dedicação, não havendo, por parte da Corel, qualquer garantia de retorno do investimento ou de ganhos futuros.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">7 – RECLAMAÇÕES SOBRE VIOLAÇÃO DE DIREITOS AUTORAIS\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design respeita a propriedade intelectual de outras pessoas ou empresas e solicitamos aos nossos membros que façam o mesmo. Toda e qualquer violação de direitos autorais deverá ser notificada a coreldesignoficial@gmail.com e acompanhada dos documentos e informações que confirmam a autoria.</span></div><br><br><div><span style=\"font-size: 1.5rem;\">8 – CONEXÕES (LINKS) A OUTROS SITES\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os sites, plataformas e aplicações de Internet do kitdodesigner.com.br podem conter conexões e links para outros sites na Internet.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A disponibilização desses links tem como finalidade facilitar a busca de informações disponíveis na Internet, não existindo qualquer tipo de vinculação ou associação entre a Corel Design e os proprietários das páginas externas.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design não avalia previamente, nem controla ou aprova, os serviços, informações, dados, arquivos, produtos e qualquer tipo de material existente nessas páginas externas, nem assume qualquer tipo de responsabilidade pelos danos, prejuízos e/ou lucros cessantes de qualquer tipo e que possam decorrer da qualidade, utilidade, disponibilidade, confiabilidade e legalidade dos serviços, informações, dados, arquivos, produtos ou qualquer tipo de material existente nas páginas externas.\n</span></div><br><br><div><span style=\"font-size: 1.5rem;\">9 – SERVIÇOS PRESTADOS POR TERCEIROS ATRAVÉS DO SITE, VÍRUS, REQUISITOS DE SEGURANÇA E ATUALIZAÇÃO\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Algumas operações financeiras realizadas nos sites, plataformas e aplicações de Internet são concluídas em sites, plataformas ou aplicações de Internet de terceiros, inclusive para assegurar a segurança dos seus dados financeiros. Nesses casos, a Corel Design exima-se de responsabilidade pelos danos, prejuízos e/ou lucros cessantes de qualquer natureza que possam advir dos serviços prestados por terceiros ou no ambiente de seus sites, plataformas e aplicações de Internet.\n</span></div><div><span style=\"font-size: 1.5rem;\">\nA Corel Design</span><span style=\"font-size: 1.5rem;\">&nbsp;exima-se de responsabilidade pelos danos, prejuízos e/ou lucros cessantes de qualquer natureza que possam advir em decorrência da existência de vírus ou de outros elementos nocivos no computador/smartphone/tablet utilizado para acessar os seus sites, plataformas e aplicações de Internet, ou ainda nos sites, plataformas e aplicações de Internet de terceiros.&nbsp;</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">O membro é o responsável exclusivo por manter o seu computador/smartphone/tablet livre de vírus e atualizado com a mais recente versão do sistema operacional e dos softwares utilizados para acessar os sites, plataformas e aplicações de Internet, bem como por eventuais prejuízos decorrentes do não atendimento dessas obrigações ou das melhores práticas de segurança no acesso à Internet.</span></div><br><br><div><span style=\"font-size: 1.5rem;\">10 – PRAZO E ALTERAÇÕES\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">O funcionamento dos sites, plataformas e aplicações de Internet da Corel Design se dá por prazo indeterminado.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os sites, plataformas e aplicações de Internet, no todo ou em cada uma das suas seções, podem ser encerrados, suspensos ou interrompidos unilateralmente pela Corel Design, a qualquer momento e sem necessidade de prévio aviso, desde que cumpridos os prazos de duração dos contratos em vigor.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os presentes Termos de Uso também poderá ser alterado a qualquer tempo.</span></div><div><span style=\"font-size: 1.5rem;\"><br></span></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSSxfvUlnG",
+          "_anchor": "content4-33",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".media-container-row": {
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.5rem",
+                  "color": "#ffffff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
+                }
+              }
+            }
+          },
+          "_name": "footer7",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#370661\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdeuso.html\" class=\"text-white\" target=\"_blank\">Termos de Uso &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li>\n                    \n                    \n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"politicadeprivacidade.html\" target=\"_blank\" class=\"text-white\">Política de Privacidade &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdegarantia.html\" class=\"text-white\">Termos de Garantia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\"><a href=\"https://coreldesign.mobirisesite.com/html.html\" class=\"text-white\">© Copyright 2020 - Corel Design - Todos os direitos reservados</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSSEWNH5lY",
+          "_anchor": "footer7-34",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "termosdegarantia.html": {
+      "settings": {
+        "meta_descr": "Site Creator Description",
+        "title": "Termos de Garantia",
+        "order": 2
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Termos de Garantia</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Garantia de 7 Dias<br><br>Após a compra do Pacote de Vetores você terá uma garantia de 7 dias de acordo com os termos abaixo:<br><br>1º Caso os arquivos apresente algum erro você terá o prazo de 7 dias para entrar em contato no e-mail coreldesignoficial@gmail.com e solicitar o reembolso.<br><br>2º Não haverá o reembolso caso o comprador já tenha os<br> mesmos arquivos contidos no Pacote. (em caso de dúvidas antes de efetuar a compra entre em contato para que possamos lhe mostrar uma prévia dos arquivos.&nbsp;<br><br>3º Após baixar os arquivos em seu computador não nos responsabilizamos por danos causados nos arquivos caso seja alterado e exportado em formatos diferentes do arquivo original.</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSSpz0niAj",
+          "_anchor": "content4-32",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".media-container-row": {
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.5rem",
+                  "color": "#ffffff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
+                }
+              }
+            }
+          },
+          "_name": "footer7",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#370661\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdeuso.html\" class=\"text-white\" target=\"_blank\">Termos de Uso &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li>\n                    \n                    \n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"politicadeprivacidade.html\" target=\"_blank\" class=\"text-white\">Política de Privacidade &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdegarantia.html\" class=\"text-white\">Termos de Garantia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\"><a href=\"https://coreldesign.mobirisesite.com/html.html\" class=\"text-white\">© Copyright 2020 - Corel Design - Todos os direitos reservados</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSSEWNH5lY",
+          "_anchor": "footer7-34",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
     "html.html": {
       "settings": {
         "main": true,
@@ -1756,366 +2116,6 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rV2pBnvsKN",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footers",
-          "_params": {}
-        }
-      ]
-    },
-    "politicadeprivacidade.html": {
-      "settings": {
-        "meta_descr": "Site Creator Description",
-        "title": "Política de Privacidade",
-        "order": 1
-      },
-      "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Política de Privacidade</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Política de Privacidade\n<div>\n</div><div>A presente Política regula as condições gerais de coleta, uso, armazenamento, tratamento e proteção de dados nos sites, plataformas e aplicações de Internet, em conformidade com a Lei 12.965/2014 (Marco Civil da Internet) e o Decreto n 8.771/2016 (Regulamentação do Marco Civil da Internet).\n</div><div>\n</div><div>AO UTILIZAR OS SITES, PLATAFORMAS OU APLICAÇÕES DE INTERNET VOCÊ CONCORDA EXPRESSA E INTEGRALMENTE COM ESTA POLÍTICA DE PRIVACIDADE, COMO CONDIÇÃO INDISPENSÁVEL À UTILIZAÇÃO DE SUAS FUNCIONALIDADES E SERVIÇOS.\n</div><div>\n</div><div>1 – COLETA DE DADOS\n</div><div>\n</div><div>A Corel Design está plenamente comprometido com a privacidade das informações que eventualmente são coletadas nos seus sites, plataformas e aplicações de Internet.\n</div><div>\n</div><div>A coleta de dados nos sites, plataformas e aplicações de Internet é realizada para atender às seguintes finalidades:\n</div><div>\n</div><div>a) Viabilizar a prestação do serviço;\n</div><div>b) Adequar a aparência e o conteúdo às preferências do usuário, a fim de proporcionar-lhe acesso mais rápido, agradável e eficaz;\n</div><div>c) Autenticar acessos e validar contas de usuário;\n</div><div>d) Buscar segurança adequada aos serviços oferecidos e meios de identificação no caso de usos impróprios ou ilícitos;\n</div><div>e) Resolver problemas e formular notificações relacionadas ao uso dos sites, plataformas e aplicações de Internet;\n</div><div>f) Manter os usuários informados sobre os serviços, alterações nos Termos de Uso ou na Política de Privacidade, atualizações ou melhorias nos sites, plataformas e aplicações de Internet, ou ainda sobre o status de suas contas e operações;\n</div><div>g) Divulgar ações promocionais, inclusive de empresas parceiras;\n</div><div>h) Apurar informações estatísticas.\n</div><div>2 – DADOS COLETADOS\n</div><div>\n</div><div>Para atender às finalidades acima, os sites, plataformas e aplicações de Internet podem coletar alguns dados a partir de informações:\n</div><div>\n</div><div>a) Que o próprio usuário fornece espontaneamente, inclusive mediante a criação de contas ou a inserção de referências a seu respeito ou de terceiros em qualquer contexto dos sites, plataformas e aplicações de Internet;\n</div><div>b) Sobre a forma como o usuário navega nos sites, plataformas e aplicações de Internet, bem como sobre os registros de acesso e de interações em geral nos sites, plataformas e aplicações de Internet.\n</div><div>c) Fornecidas por ferramentas ou plataformas externas disponibilizadas por parceiros e relacionadas ao navegador ou conta do usuário (cookies ou identificadores anônimos).\n</div><div>3 – ARMAZENAMENTO DE REGISTROS E DADOS\n</div><div>\n</div><div>Os sites, plataformas e aplicações de Internet mantêm registros de acessos à suas aplicações, em ambiente controlado e de segurança, pelo prazo de 06 (seis) meses, nos termos do art. 15 da lei 12.965/14. Após esse período, os registros de acesso à aplicação são automaticamente excluídos, nos termos do art. 13, $2, II, do Decreto 8.771/2016.\n</div><div>\n</div><div>Além disso, os sites, plataformas e aplicações de Internet armazenam, de forma excepcional, alguns dados de usuários visando a atender finalidades específicas, conforme exposto nos itens I e II, acima. A guarda destes dados ocorre em ambiente controlado e de segurança, nos termos do art. 10 da lei 12.965/14, sendo automaticamente excluídos, na forma do art. 13, $2, I, do Decreto 8.771/2016, tão logo seja atingida a finalidade de seu uso pela Corel Design</div><div>\n</div><div>4 – PADRÕES DE SEGURANÇA E SIGILO DOS REGISTROS E DADOS\n</div><div>\n</div><div>Os registros e dados coletados através dos sites, plataformas e aplicações de Internet são armazenados, tratados e protegidos mediante as melhores práticas de hospedagem, processamento, backup e criptografia, de acordo com a sua respectiva criticidade.\n</div><div>\n</div><div>Os dados coletados são mantidos em sigilo, inclusive com o estabelecimento de controle estrito sobre o acesso mediante mecanismos de autenticação e responsabilidades hierárquicas.\n</div><div>\n</div><div>A Corel Design mantém um inventário detalhado dos acessos aos registros e dados pessoais, em formato interoperável e estruturado, contendo o momento, a duração, a identidade do funcionário ou do responsável pelo acesso e o arquivo acessado, inclusive para cumprimento de eventual ordem judicial.\n</div><div>\n</div><div>Contudo, o usuário deve ter ciência que nenhum sistema de segurança na Internet é garantido contra invasões indesejadas, sendo que o compromisso da Corel Design se limita à adoção de medidas de proteção recomendáveis de acordo com o atual estado da técnica, e em conformidade com a Lei 12.965/2014 (Marco Civil da Internet) e o Decreto n 8.771/2016 (Regulamentação do Marco Civil da Internet).\n</div><div>\n</div><div>Devido às características estruturais da Internet, é possível que os dados coletados sejam armazenados ou tratados no exterior.\n</div><div>\n</div><div>5 – COMPARTILHAMENTO DE DADOS\n</div><div>\n</div><div>Os sites, plataformas e aplicações de Internet somente compartilham dados com terceiros:\n</div><div>\n</div><div>a) mediante autorização prévia do usuário ou mediante ordem judicial;\n</div><div>b) mediante solicitação do ministério público, de autoridade policial ou administrativa, nos termos do art. 15, parágrafo 3, da lei 12.965/14, art. 11 e 15, do Decreto 8.771/2016; ou\n</div><div>c) se o compartilhamento for necessário para cumprir qualquer outra lei ou regulamentação governamental.\n</div><div>6 – GERENCIAMENTO, CORREÇÃO E EXCLUSÃO DADOS\n</div><div>\n</div><div>A Corel Design não se responsabiliza pelo conteúdo ou pela correção, veracidade, autenticidade, completude e atualização dos dados prestados por usuários de seus sites, plataformas ou aplicações de Internet, ou ainda pelas informações acessadas por seu intermédio em softwares, sites ou plataformas de terceiros, nem mesmo pelo eventual uso indevido de informações publicadas por usuários ou por fraudes decorrentes da violação de senhas.\n</div><div>\n</div><div>É da exclusiva responsabilidade do usuário prestar unicamente informações corretas, verdadeiras, autênticas, completas e atualizadas; criar uma senha forte, que mantenha a integridade da sua conta, zelando, ainda, pelo sigilo da mesma, quando aplicável, não a divulgando a terceiros. O USO DO LOGIN E DA SENHA DE SOFTWARES, SITE OU PLATAFORMAS DE TERCEIROS É DE EXCLUSIVA RESPONSABILIDADE DO USUÁRIO.\n</div><div>\n</div><div>O kitdodesigner.com.br mantém um canal de atendimento aos usuários e para denúncia de dados falsos/equivocados publicados nos seus sites, plataformas e aplicações de Internet através do endereço eletrônico coreldesignoficial@gmail.com, o a Corel Design poderá excluir dos seus sites, plataformas e aplicações de Internet dados pessoais referentes ao solicitante, encerrando eventuais contas/perfis, ressalvadas as hipóteses de guarda obrigatória de registros ou dados previstas em lei ou objeto de ordem judicial ou de requerimento do Ministério Público ou de autoridade policial ou administrativa, nos termos do art. 7, X, da Lei 12.965/14.\n</div><div>\n</div><div>7 – DIREITO DE EDIÇÃO E EXCLUSÃO DE CONTEÚDOS\n</div><div>\n</div><div>Os sites, plataformas e aplicações de Internet se reservam o direito de editar ou mesmo excluir quaisquer conteúdos publicados por usuários que não estejam em conformidade com a lei, com a sua Política de Privacidade ou Termos de Uso.\n</div><div>\n</div><div>Essa condição, todavia, não configura obrigação do kitdodesigner.com.br, sendo que, por força do art. 15, parágrafo 3 da Lei 12.965/14 e art. 11 e 15, do Decreto 8.771/2016, via de regra solicitações de edição ou remoção devem se dar sob a forma de ordem judicial, requerimento do Ministério Público ou de autoridade policial ou administrativa.\n</div><div>\n</div><div>8 – SPAM\n</div><div>\n</div><div>Os sites, plataformas e aplicações de Internet envidarão os melhores esforços para evitar o envio de e-mails não-solicitados.\n</div><div>\n</div><div>Colabore enviando reclamação para coreldesignoficial@gmail.com caso você receba qualquer e-mail não-solicitado ou potencialmente invasivo em nome da Corel Design</div><div>\n</div><div>9 – LINKS\n</div><div>\n</div><div>Os sites, plataformas e aplicações de Internet podem conter conexões e links para outros sites na Internet.\n</div><div>\n</div><div>A Corel Design não se responsabiliza pelos conteúdos, pelos Termos de Uso ou pela Política de Privacidade dos sites cujos links são publicados nos sites, plataformas e aplicações de Internet.\n</div><div>\n</div><div>10 – ALTERAÇÕES DA POLÍTICA\n</div><div>\n</div><div>A presente Política de Privacidade pode ser alterada a qualquer tempo.\n</div><div>\n</div><div>As alterações desta Política de Privacidade não serão informadas, ficando de total responsabilidade do usuário olhar periodicamente nossas Política de Privacidade.</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rSSlLqcoE5",
-          "_anchor": "content4-30",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".row-links": {
-              "width": "100%",
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            ".social-row": {
-              "width": "100%",
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            ".media-container-row": {
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "-webkit-justify-content": "center",
-              "justify-content": "center",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              ".foot-menu": {
-                "list-style": "none",
-                "display": "flex",
-                "-webkit-justify-content": "center",
-                "justify-content": "center",
-                "-webkit-flex-wrap": "wrap",
-                "flex-wrap": "wrap",
-                "padding": "0",
-                "margin-bottom": "0",
-                "li": {
-                  "padding": "0 1rem 1rem 1rem",
-                  "p": {
-                    "margin": "0"
-                  }
-                }
-              },
-              ".social-list": {
-                "padding-left": "0",
-                "margin-bottom": "0",
-                "list-style": "none",
-                "display": "flex",
-                "-webkit-flex-wrap": "wrap",
-                "flex-wrap": "wrap",
-                "-webkit-justify-content": "flex-end",
-                "justify-content": "flex-end",
-                ".mbr-iconfont-social": {
-                  "font-size": "1.5rem",
-                  "color": "#ffffff"
-                },
-                ".soc-item": {
-                  "margin": "0 .5rem"
-                },
-                "a": {
-                  "margin": "0",
-                  "opacity": ".5",
-                  "-webkit-transition": ".2s linear",
-                  "transition": ".2s linear",
-                  "&:hover": {
-                    "opacity": "1"
-                  }
-                },
-                "@media (max-width: 767px)": {
-                  "-webkit-justify-content": "center",
-                  "justify-content": "center"
-                }
-              },
-              ".row-copirayt": {
-                "word-break": "break-word",
-                "width": "100%",
-                "p": {
-                  "width": "100%"
-                }
-              }
-            }
-          },
-          "_name": "footer7",
-          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#370661\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdeuso.html\" class=\"text-white\" target=\"_blank\">Termos de Uso &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li>\n                    \n                    \n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"politicadeprivacidade.html\" target=\"_blank\" class=\"text-white\">Política de Privacidade &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdegarantia.html\" class=\"text-white\">Termos de Garantia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\"><a href=\"https://coreldesign.mobirisesite.com/html.html\" class=\"text-white\">© Copyright 2020 - Corel Design - Todos os direitos reservados</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rSSEWNH5lY",
-          "_anchor": "footer7-34",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footers",
-          "_params": {}
-        }
-      ]
-    },
-    "termosdeuso.html": {
-      "settings": {
-        "meta_descr": "Site Creator Description",
-        "title": "Termos de Uso",
-        "order": 3
-      },
-      "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Termos de Uso</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Os presentes Termos de Uso regulam as condições gerais de utilização dos sites, plataformas e aplicações de Internet, em conformidade com a Lei 12.965/2014 (Marco Civil da Internet) e o Decreto n 8.771/2016 (Regulamentação do Marco Civil da Internet).\n<div></div><div>\nAo utilizar os sites, plataformas ou aplicações de Internet você concorda expressa e integralmente com os presentes Termos de Uso.\n</div><div></div><div>\nRecomendamos aos membros que, previamente à utilização dos sites, plataformas ou aplicações de Internet, realizem atenta leitura dos presentes TERMOS DE USO.\n</div><div></div><div>\n</div><br><div>1 – OBJETO\n</div><div></div><div>a Corel Desing trata-se de um site que vende vetores<span style=\"font-size: 1.5rem;\">. </span></div><div><span style=\"font-size: 1.5rem;\">Os presentes Termos de Uso regulam a sua utilização.&nbsp;</span></div><br><div><span style=\"font-size: 1.5rem;\">2 – INEXISTÊNCIA DE GARANTIA DE CONTINUIDADE DOS SERVIÇOS E SUSCETIBILIDADE A FALHAS TÉCNICAS\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><br></div><div><span style=\"font-size: 1.5rem;\">\n</span><span style=\"font-size: 1.5rem;\">Quando for razoavelmente possível, a Corel Design informará previamente as interrupções do funcionamento dos seus serviços, plataformas e funcionalidades.&nbsp;</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design não se responsabiliza por quaisquer danos indiretos decorrentes do uso de seus sites, plataformas e aplicações de Internet ou por danos diretos ou indiretos decorrentes de caso fortuito ou força maior, do uso inadequado da plataforma, ou, ainda, por eventuais paralisações transitórias.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os conteúdos disponibilizados através dos sites, plataformas e aplicações de Internet poderão eventualmente conter erros ou falhas técnicas. Colabore nos informando esses problemas mediante e-mail para coredesignoficial@gmail.com</span></div><br><br><div><span style=\"font-size: 1.5rem;\">3 – PRIVACIDADE E PROTEÇÃO DE DADOS\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design pela privacidade dos dados de seus membros, nos e veda a utilização dos seus sites, plataformas e aplicações de Internet para qualquer finalidade ilícita, de acordo com o definido pela legislação em vigor e pelos presentes Termos de Uso.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Contudo, o membro deve ter ciência de que frequentemente fraudadores tentam se valer de ferramentas funcionais para fins escusos, visando a obter informações pessoais.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design ADOTA as melhores práticas de hospedagem, processamento, backup e criptografia DE DADOS PESSOAIS E NUNCA IRÁ SOLICITAR SUA SENHA, NOME DO USUÁRIO, DADOS DE CARTÃO DE CRÉDITO OU OUTRAS INFORMAÇÕES PESSOAIS ATRAVÉS DE E-MAIL OU CONTATO TELEFÔNICO.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Caso você receba qualquer e-mail não-solicitado ou potencialmente invasivo em nome da Corel Design, colabore enviando denúncia para coreldesignoficial@gmail.com</span></div><br><br><div><span style=\"font-size: 1.5rem;\">4 – PROPRIEDADE INTELECTUAL\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os conteúdos acessados mediante os sites, plataformas e aplicações de Internet, incluindo, sem limitação, textos em geral, apresentações, tabelas, bases de dados, fotografias, ilustrações, gráficos, vídeos, softwares ou quaisquer outros tipos de obras intelectuais, bem como as informações e os dados em geral obtidos através dos seus serviços, plataformas e funcionalidades, são protegidos por direitos de propriedade intelectual, como direitos autorais, marcas, desenhos industriais, patentes, dentre outros, sendo que o seu acesso através dos sites, plataformas e aplicações de Internet não implica em qualquer cessão de direitos ou licença adicional ao mero uso no contexto dos respectivos sites, plataformas e aplicações de Internet.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Sempre que os sites, plataformas e aplicações de Internet oferecerem meios diretos de compartilhamento dos seus conteúdos, mediante ferramentas ou ícones de redes sociais ou de outros sites, plataformas ou aplicações de Internet (como Facebook, LinkedIn, etc.), fica desde logo autorizado o compartilhamento desses específicos conteúdos, de acordo com os termos de uso de cada ferramenta, condicionado à devida indicação de procedência do conteúdo (crédito) e a que o seu compartilhamento não tenha finalidade comercial e não concorra com os sites, plataformas e aplicações de Internet.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Em quaisquer outros casos, salvo mediante permissão expressa, é vedado:\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">(i) realizar reproduções adicionais ao mero acesso às obras intelectuais, aos conteúdos e às informações disponibilizados nos sites, plataformas e aplicações de Internet.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">(ii) transmitir, distribuir, divulgar ou de qualquer forma de comunicar as obras intelectuais, os conteúdos e as informações disponibilizados nos sites, plataformas e aplicações de Internet da Corel Desing a terceiros;\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">(iii) utilizar artifícios técnicos para quebra de senhas ou da codificação dos sites, plataformas e aplicações de Internet, para acesso e interpretação do seu código-fonte, bem como para tradução para diversa linguagem computacional;\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">(iv) a transmissão eletrônica dos sites, plataformas e aplicações de Internet ou de seus conteúdos de um computador para outro através de rede, não se incluindo nessa restrição a mera utilização dos sites, plataformas e aplicações de Internet em rede;\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">(v) o uso de plataformas e aplicações de Internet por terceiros ou por qualquer outra pessoa diversa daquele que foi originalmente autorizado/licenciado.</span></div><br><br><div><span style=\"font-size: 1.5rem;\">5 – LIMITAÇÃO DE RESPONSABILIDADE\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os materiais são fornecidos neste website sem nenhuma garantia explícita ou implícita de comercialização ou adequação a qualquer objetivo específico. Em nenhum caso a Corel Design ou os seus colaboradores serão responsabilizados por quaisquer danos, incluindo lucros cessantes, interrupção de negócio, ou perda de informação que resultem do uso ou da incapacidade de usar os materiais. a Corel Design não garante a precisão ou integridade das informações, textos, gráficos, links e outros itens dos materiais.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design não é responsável pela violação de direitos autorais decorrente de informações, documentos e materiais publicados nesta website, comprometendo-se a retirá-los do ar assim que notificado da infração.</span></div><br><br><div><span style=\"font-size: 1.5rem;\">6 – CONDIÇÕES GERAIS DE ACESSO E USO DOS SITES, PLATAFORMAS OU APLICAÇÕES DE INTERNET\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design é um site de venda de pacotes de vetores e arquivos online, os resultados dos cursos dependem única e exclusivamente do seu esforço e dedicação, não havendo, por parte da Corel, qualquer garantia de retorno do investimento ou de ganhos futuros.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">7 – RECLAMAÇÕES SOBRE VIOLAÇÃO DE DIREITOS AUTORAIS\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design respeita a propriedade intelectual de outras pessoas ou empresas e solicitamos aos nossos membros que façam o mesmo. Toda e qualquer violação de direitos autorais deverá ser notificada a coreldesignoficial@gmail.com e acompanhada dos documentos e informações que confirmam a autoria.</span></div><br><br><div><span style=\"font-size: 1.5rem;\">8 – CONEXÕES (LINKS) A OUTROS SITES\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os sites, plataformas e aplicações de Internet do kitdodesigner.com.br podem conter conexões e links para outros sites na Internet.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A disponibilização desses links tem como finalidade facilitar a busca de informações disponíveis na Internet, não existindo qualquer tipo de vinculação ou associação entre a Corel Design e os proprietários das páginas externas.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">A Corel Design não avalia previamente, nem controla ou aprova, os serviços, informações, dados, arquivos, produtos e qualquer tipo de material existente nessas páginas externas, nem assume qualquer tipo de responsabilidade pelos danos, prejuízos e/ou lucros cessantes de qualquer tipo e que possam decorrer da qualidade, utilidade, disponibilidade, confiabilidade e legalidade dos serviços, informações, dados, arquivos, produtos ou qualquer tipo de material existente nas páginas externas.\n</span></div><br><br><div><span style=\"font-size: 1.5rem;\">9 – SERVIÇOS PRESTADOS POR TERCEIROS ATRAVÉS DO SITE, VÍRUS, REQUISITOS DE SEGURANÇA E ATUALIZAÇÃO\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Algumas operações financeiras realizadas nos sites, plataformas e aplicações de Internet são concluídas em sites, plataformas ou aplicações de Internet de terceiros, inclusive para assegurar a segurança dos seus dados financeiros. Nesses casos, a Corel Design exima-se de responsabilidade pelos danos, prejuízos e/ou lucros cessantes de qualquer natureza que possam advir dos serviços prestados por terceiros ou no ambiente de seus sites, plataformas e aplicações de Internet.\n</span></div><div><span style=\"font-size: 1.5rem;\">\nA Corel Design</span><span style=\"font-size: 1.5rem;\">&nbsp;exima-se de responsabilidade pelos danos, prejuízos e/ou lucros cessantes de qualquer natureza que possam advir em decorrência da existência de vírus ou de outros elementos nocivos no computador/smartphone/tablet utilizado para acessar os seus sites, plataformas e aplicações de Internet, ou ainda nos sites, plataformas e aplicações de Internet de terceiros.&nbsp;</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">O membro é o responsável exclusivo por manter o seu computador/smartphone/tablet livre de vírus e atualizado com a mais recente versão do sistema operacional e dos softwares utilizados para acessar os sites, plataformas e aplicações de Internet, bem como por eventuais prejuízos decorrentes do não atendimento dessas obrigações ou das melhores práticas de segurança no acesso à Internet.</span></div><br><br><div><span style=\"font-size: 1.5rem;\">10 – PRAZO E ALTERAÇÕES\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">O funcionamento dos sites, plataformas e aplicações de Internet da Corel Design se dá por prazo indeterminado.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os sites, plataformas e aplicações de Internet, no todo ou em cada uma das suas seções, podem ser encerrados, suspensos ou interrompidos unilateralmente pela Corel Design, a qualquer momento e sem necessidade de prévio aviso, desde que cumpridos os prazos de duração dos contratos em vigor.\n</span></div><div><span style=\"font-size: 1.5rem;\">\n</span></div><div><span style=\"font-size: 1.5rem;\">Os presentes Termos de Uso também poderá ser alterado a qualquer tempo.</span></div><div><span style=\"font-size: 1.5rem;\"><br></span></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rSSxfvUlnG",
-          "_anchor": "content4-33",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".row-links": {
-              "width": "100%",
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            ".social-row": {
-              "width": "100%",
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            ".media-container-row": {
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "-webkit-justify-content": "center",
-              "justify-content": "center",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              ".foot-menu": {
-                "list-style": "none",
-                "display": "flex",
-                "-webkit-justify-content": "center",
-                "justify-content": "center",
-                "-webkit-flex-wrap": "wrap",
-                "flex-wrap": "wrap",
-                "padding": "0",
-                "margin-bottom": "0",
-                "li": {
-                  "padding": "0 1rem 1rem 1rem",
-                  "p": {
-                    "margin": "0"
-                  }
-                }
-              },
-              ".social-list": {
-                "padding-left": "0",
-                "margin-bottom": "0",
-                "list-style": "none",
-                "display": "flex",
-                "-webkit-flex-wrap": "wrap",
-                "flex-wrap": "wrap",
-                "-webkit-justify-content": "flex-end",
-                "justify-content": "flex-end",
-                ".mbr-iconfont-social": {
-                  "font-size": "1.5rem",
-                  "color": "#ffffff"
-                },
-                ".soc-item": {
-                  "margin": "0 .5rem"
-                },
-                "a": {
-                  "margin": "0",
-                  "opacity": ".5",
-                  "-webkit-transition": ".2s linear",
-                  "transition": ".2s linear",
-                  "&:hover": {
-                    "opacity": "1"
-                  }
-                },
-                "@media (max-width: 767px)": {
-                  "-webkit-justify-content": "center",
-                  "justify-content": "center"
-                }
-              },
-              ".row-copirayt": {
-                "word-break": "break-word",
-                "width": "100%",
-                "p": {
-                  "width": "100%"
-                }
-              }
-            }
-          },
-          "_name": "footer7",
-          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#370661\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdeuso.html\" class=\"text-white\" target=\"_blank\">Termos de Uso &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li>\n                    \n                    \n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"politicadeprivacidade.html\" target=\"_blank\" class=\"text-white\">Política de Privacidade &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdegarantia.html\" class=\"text-white\">Termos de Garantia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\"><a href=\"https://coreldesign.mobirisesite.com/html.html\" class=\"text-white\">© Copyright 2020 - Corel Design - Todos os direitos reservados</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rSSEWNH5lY",
-          "_anchor": "footer7-34",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footers",
-          "_params": {}
-        }
-      ]
-    },
-    "termosdegarantia.html": {
-      "settings": {
-        "meta_descr": "Site Creator Description",
-        "title": "Termos de Garantia",
-        "order": 2
-      },
-      "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Termos de Garantia</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Garantia de 7 Dias<br><br>Após a compra do Pacote de Vetores você terá uma garantia de 7 dias de acordo com os termos abaixo:<br><br>1º Caso os arquivos apresente algum erro você terá o prazo de 7 dias para entrar em contato no e-mail coreldesignoficial@gmail.com e solicitar o reembolso.<br><br>2º Não haverá o reembolso caso o comprador já tenha os<br> mesmos arquivos contidos no Pacote. (em caso de dúvidas antes de efetuar a compra entre em contato para que possamos lhe mostrar uma prévia dos arquivos.&nbsp;<br><br>3º Após baixar os arquivos em seu computador não nos responsabilizamos por danos causados nos arquivos caso seja alterado e exportado em formatos diferentes do arquivo original.</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rSSpz0niAj",
-          "_anchor": "content4-32",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".row-links": {
-              "width": "100%",
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            ".social-row": {
-              "width": "100%",
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            ".media-container-row": {
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "-webkit-justify-content": "center",
-              "justify-content": "center",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              ".foot-menu": {
-                "list-style": "none",
-                "display": "flex",
-                "-webkit-justify-content": "center",
-                "justify-content": "center",
-                "-webkit-flex-wrap": "wrap",
-                "flex-wrap": "wrap",
-                "padding": "0",
-                "margin-bottom": "0",
-                "li": {
-                  "padding": "0 1rem 1rem 1rem",
-                  "p": {
-                    "margin": "0"
-                  }
-                }
-              },
-              ".social-list": {
-                "padding-left": "0",
-                "margin-bottom": "0",
-                "list-style": "none",
-                "display": "flex",
-                "-webkit-flex-wrap": "wrap",
-                "flex-wrap": "wrap",
-                "-webkit-justify-content": "flex-end",
-                "justify-content": "flex-end",
-                ".mbr-iconfont-social": {
-                  "font-size": "1.5rem",
-                  "color": "#ffffff"
-                },
-                ".soc-item": {
-                  "margin": "0 .5rem"
-                },
-                "a": {
-                  "margin": "0",
-                  "opacity": ".5",
-                  "-webkit-transition": ".2s linear",
-                  "transition": ".2s linear",
-                  "&:hover": {
-                    "opacity": "1"
-                  }
-                },
-                "@media (max-width: 767px)": {
-                  "-webkit-justify-content": "center",
-                  "justify-content": "center"
-                }
-              },
-              ".row-copirayt": {
-                "word-break": "break-word",
-                "width": "100%",
-                "p": {
-                  "width": "100%"
-                }
-              }
-            }
-          },
-          "_name": "footer7",
-          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#370661\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdeuso.html\" class=\"text-white\" target=\"_blank\">Termos de Uso &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li>\n                    \n                    \n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"politicadeprivacidade.html\" target=\"_blank\" class=\"text-white\">Política de Privacidade &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"termosdegarantia.html\" class=\"text-white\">Termos de Garantia &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\"><a href=\"https://coreldesign.mobirisesite.com/html.html\" class=\"text-white\">© Copyright 2020 - Corel Design - Todos os direitos reservados</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rSSEWNH5lY",
-          "_anchor": "footer7-34",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
